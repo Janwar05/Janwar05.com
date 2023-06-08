@@ -1,0 +1,36 @@
+nav {
+    background-color:grey;
+    padding:5px;
+}
+
+body {
+    background-color:black;
+    color:white;
+}
+
+dl {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:grey;
+}
+
+dd {
+    float:left;
+}
+
+dd a {
+    display:block;
+    color:black;
+    text-align:center;
+    padding:15px 10px;
+    text-decoration:none;
+}
+
+dd a:hover:not(.active) {
+    background-color:darkgrey;
+}
+
+
+
